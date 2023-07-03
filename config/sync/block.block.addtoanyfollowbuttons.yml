@@ -1,0 +1,22 @@
+uuid: 9a084b18-91cd-4e84-b1d7-3eac9ffdcf16
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - olivero
+id: addtoanyfollowbuttons
+theme: olivero
+region: footer_top
+weight: -8
+provider: null
+plugin: addtoany_follow_block
+settings:
+  id: addtoany_follow_block
+  label: 'Social Media Links'
+  label_display: visible
+  provider: addtoany
+  buttons_size: ''
+  addtoany_html: "<a class=\"a2a_button_twitter\" href=\"https://www.twitter.com\"></a>\r\n<a class=\"a2a_button_facebook\" href=\"https://www.facebook.com\"></a>\r\n<a class=\"a2a_button_linkedin\" href=\"https://www.linkedin.com\"></a>"
+visibility: {  }

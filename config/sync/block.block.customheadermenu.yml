@@ -1,0 +1,25 @@
+uuid: 6c1fedc9-1d14-4666-aede-fe5fd714ea28
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.custom-header-menu
+  module:
+    - system
+  theme:
+    - olivero
+id: customheadermenu
+theme: olivero
+region: footer_top
+weight: -9
+provider: null
+plugin: 'system_menu_block:custom-header-menu'
+settings:
+  id: 'system_menu_block:custom-header-menu'
+  label: 'Menu Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

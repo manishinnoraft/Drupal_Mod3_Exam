@@ -1,0 +1,15 @@
+uuid: f93e2509-7094-4e8f-b11c-f207c4fc6b08
+langcode: en
+status: true
+dependencies: {  }
+name: custom_banner
+label: 'Custom Banner'
+effects:
+  5e6e60bc-ed90-4d96-bd8a-0194e814d6d3:
+    uuid: 5e6e60bc-ed90-4d96-bd8a-0194e814d6d3
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: 400
+      upscale: true

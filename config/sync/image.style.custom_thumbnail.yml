@@ -1,0 +1,15 @@
+uuid: e86140a9-c95c-440f-9d7b-5a5c2c0ea7f0
+langcode: en
+status: true
+dependencies: {  }
+name: custom_thumbnail
+label: 'Custom Thumbnail (200 x 100)'
+effects:
+  e1f6fa1e-df83-4bb6-9861-8e069102162a:
+    uuid: e1f6fa1e-df83-4bb6-9861-8e069102162a
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: 100
+      upscale: true
